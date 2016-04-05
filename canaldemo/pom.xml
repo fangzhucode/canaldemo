@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.fang.canaldemo</groupId>
+	<artifactId>canaldemo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<build />
+	<dependencies>
+		<!-- canal -->
+		<dependency>
+			<groupId>com.alibaba.otter</groupId>
+			<artifactId>canal.client</artifactId>
+			<version>1.0.21</version>
+		</dependency>
+		<!-- fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.7</version>
+		</dependency>
+		<!--groovy -->
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>2.4.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.dianwoba.bigdata</groupId>
+			<artifactId>canal.common.dev</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- canal embedded -->
+		<dependency>
+			<groupId>com.alibaba.otter</groupId>
+			<artifactId>canal.instance.core</artifactId>
+			<version>1.0.21</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.otter</groupId>
+			<artifactId>canal.instance.spring</artifactId>
+			<version>1.0.21</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.otter</groupId>
+			<artifactId>canal.instance.manager</artifactId>
+			<version>1.0.21</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.otter</groupId>
+			<artifactId>canal.server</artifactId>
+			<version>1.0.21</version>
+		</dependency>
+	</dependencies>
+</project>
